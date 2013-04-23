@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>DrupalCamp MX 2013 Puebla | Taller Básico</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+    <section>
+        <h1>DRUPALCAMP MX 2013</h1>
+        <h1>PUEBLA</h1>
+        <p>
+        <br>
+    </p>
+    <p>
+    <b>BIENVENIDOS</b>
+</p>
+<img src="http://i.imgur.com/S3TCFvM.png" height="216" width="225">
+</section>
+<section>
+    <section>
+        <h2>¿Qué es drupal?</h2>
+        <div>
+            <br>
+        </div>
+        <div style="text-align: center;">
+            <span style="letter-spacing: -0.02em;">Drupal es un sistema de gestión de contenidos&nbsp;</span>
+            <br>
+        </div>
+        <div style="text-align: center;">que permite crear y mantener muchos tipos&nbsp;</div>
+        <div style="text-align: center;">diferentes de sitios web sin necesidad&nbsp;</div>
+        <div style="text-align: center;">de&nbsp;<span style="letter-spacing: -0.02em;">conocer ningún lenguaje&nbsp;</span>
+    </div>
+    <div style="text-align: center;">de codificación.<br>
+    </div>
+    <div style="text-align: center;">
+        <br>
+    </div>
+    <div style="text-align: center;">Drupal es un software libre, escrito en PHP,&nbsp;</div>
+    <div style="text-align: center;">que cuenta con una amplia y activa comunidad&nbsp;</div>
+    <div style="text-align: center;">de usuarios y desarrolladores que colaboran&nbsp;</div>
+    <div style="text-align: center;">conjuntamente en su mejora y ampliación.<br>
+    </div>
+</section>
+<section>
+    <h2>ORIGEN</h2>
+<div>
+    <span style="letter-spacing: -0.02em;">
+        <br>
+    </span>
+</div>
+<div>
+    <span style="letter-spacing: -0.02em;">&nbsp; En Enero del 2001 su f</span>
+    <span style="letter-spacing: -0.02em;">undador</span>
+    <br>
+</div>
+<div style="text-align: center;">
+    <span style="letter-spacing: -0.02em;">&nbsp;Dries Buytaert liberó&nbsp;</span>
+    <span style="letter-spacing: -0.02em;">Drupal,&nbsp;</span>
+</div>
+<div style="text-align: center;">
+    <br>
+    <div>"droo-puhl"<span style="letter-spacing: -0.02em;">&nbsp;es el equivalente fonético en inglés a la palabra&nbsp;Holandesa "druppel" que signif</span>
+    <span style="letter-spacing: -0.02em;">ica 'gota'</span>
+    <span style="letter-spacing: -0.02em;">.</span>
+    <span style="letter-spacing: -0.02em;">&nbsp;</span>
+</div>
+</div>
+<div>
+    <img src="http://i.imgur.com/lEYAzDT.jpg" style="font-size: 36.063885px;font-style: normal;font-variant: normal;line-height: 43.182747px;letter-spacing: -0.02em;">
+    <span style="letter-spacing: -0.02em;">
+        <br>
+    </span>
+</div>
+<div>
+    <span style="letter-spacing: -0.02em;">
+        <br>
+    </span>
+</div>
+</section>
+<section>
+    <img src="http://i.imgur.com/4KTJGCu.jpg" height="216" width="488">
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="http://i.imgur.com/iXR0iZu.jpg">
+</section>
+</section>
+<section>
+    <section>
+        <h2>Estructuración</h2>
+        <div>
+            <br>
+            <br>
+        </div>
+        <div>El secreto de Drupal para conseguir su reconocida <br>flexibilidad y facilidad en la creación de sitios <br>web es la abstracción y organización en capas <br>que aplica en el tratamiento <br>de los contenidos.<br>
+        </div>
+    </section>
+    <section>
+        <h2>
+            <br>
+        </h2>
+        <p>En lugar de considerar el sitio web como un <br>
+    </p>
+    <p>conjunto de páginas interrelacionadas, <br>
+</p>
+<p>Drupal estructura los contenidos <br>
+</p>
+<p>en una serie de elementos básicos.&nbsp;</p>
+<p>
+<br>
+</p>
+<p>Estos son los nodos ( nodes ) , modulos ( modules ), bloques y menus ( blocks &amp; menus) , permisos de usuario y plantillas ( templates ).<br>
+</p>
+</section>
+<section>
+    <h2>
+        <img src="http://i.imgur.com/ciqllj5.jpg" height="618" width="604">
+    </h2>
+</section>
+<section>
+    <h2>
+        <br>
+    </h2>
+    <p>1.- Los Nodes son los elementos básicos en que Drupal almacena la información, los contenidos. Se puede decir que la primera capa de la estructura de Drupal la forma este "deposito" de Nodes.</p>
+    <p>
+    <br>
+</p>
+<p>2.- Los Modules son los elementos que operan sobre los Nodes y otorgan funcionalidad a Drupal permitiendo incrementar sus capacidades o adaptarlas a las necesidades de cada sitio web. Son como <u>Plug-Ins</u> que se instalan en el sitio web proporcionándole nuevas funcionalides.<br>
+</p>
+</section>
+<section>
+    <h2>
+        <br>
+    </h2>
+    <p align="justify">3.- Blocks &amp; Menus: Éstos permiten estructurar y organizar los contenidos en la página web. Son los elementos que albergan y permiten acceder al usuario a la salida generada y procesada por los módulos a partir de la información almacenada en los nodos.</p>
+    <p>
+    <br>
+</p>
+<p align="justify">4.- Usuarios y permisos: Drupal dispone de un registro de usuarios y de roles que permiten especificar las operaciones, o tareas pueden realizar&nbsp; cada usuario, a que contenidos puede acceder cada tipo de usuario sobre los elementos de las capas inferiores ( lectura, modificación, creación … ) .<br>
+</p>
+</section>
+<section>
+    <h2>
+        <br>
+    </h2>
+    <p>5.- Themes: Es la que establece la apariencia gráfica o estilo de la información que se le muestra al usuario. <br>
+</p>
+<p>
+<br>
+</p>
+<p>Esta separación entre información y aspecto gráfico permite cambiar el diseño u apariencia del sitio web sin necesidad de modificar los contenidos, lo que es muy práctico si lo único que queremos es renovar la apariencia de un sitio web.<br>
+</p>
+</section>
+</section>
+<section>
+    <section>
+        <h2>Arquitectura</h2>
+        <h2>
+            <img src="http://i.imgur.com/Axlo2K3.png" height="474" width="364">
+        </h2>
+        <p>El núcleo de Drupal ha sido diseñado para ser modular!<br>
+    </p>
+</section>
+<section>
+    <h2>Regla de oro</h2>
+    <p align="center">
+        <br>
+    </p>
+    <p align="center">
+        <br>
+    </p>
+    <p align="center">
+        <br>
+    </p>
+    <h1 style="border: 0.0px;background-color: rgb(255,255,255);font-size: 2.0em;margin: 0.0px 0.0px 0.692em;padding: 0.0px;vertical-align: baseline;line-height: 1.385em;font-weight: normal;color: rgb(34,34,34);font-style: normal;font-variant: normal;letter-spacing: normal;text-indent: 0.0px;text-transform: none;white-space: normal;word-spacing: 0.0px;">&nbsp;Never hack core</h1>
+</section>
+</section>
+<section>
+    <section>
+        <h2>
+            <br>
+        </h2>
+        <h2>
+            <br>
+        </h2>
+        <h2>Y a todo esto...!</h2>
+        <p>
+        <br>
+    </p>
+    <h2>¿Cuáles son las Contras?</h2>
+    <p>
+    <br>
+</p>
+<p>
+<br>
+</p>
+</section>
+<section>
+    <p>
+    <i>Sin duda alguna es...</i>
+</p>
+<p>
+<br>
+</p>
+<p>La curva de aprendizaje inicial a comparación de los demás CMS<img src="http://i.imgur.com/hCq5L6j.png" height="440" width="455">
+</p>
+<p>es muy "Prolongada".</p>
+</section>
+</section>
+<section>
+    <h2>¿Dudas?</h2>
+    <p>
+    <br>
+</p>
+<p>Es hora de&nbsp;</p>
+<p>
+<br>
+</p>
+<h1>Drupalear!</h1>
+<p>
+<br>
+</p>
+<img src="http://i.imgur.com/CaNqwtc.png">
+</section>
+<section>
+    <h2>Irving Cruz</h2>
+    <p>
+    <br>
+</p>
+<div>
+    <img src="http://i.imgur.com/pTZBCng.jpg" height="225" width="299">
+    <br>
+</div>
+<br>
+<div>
+    <img src="http://i.imgur.com/87cAq7d.png" height="44" width="44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <img src="http://i.imgur.com/nvSqB47.png" height="47" width="47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</div>
+<div>@Deock1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; facebook.com/1deko&nbsp; <br>
+</div>
+<br>
+</section>
+</div>
+
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
